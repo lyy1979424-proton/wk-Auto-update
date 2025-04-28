@@ -2,7 +2,7 @@ name: Auto Update _worker.js
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天00:00 UTC运行一次（你可以改时间）
+    - cron: '0 19 * * *'   # 北京时间凌晨3点运行一次（你可以改时间）
   workflow_dispatch:      # 允许手动触发
 
 jobs:
